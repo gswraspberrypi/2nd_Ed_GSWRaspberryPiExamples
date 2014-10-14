@@ -1,4 +1,3 @@
-# GSW Raspberry Pi ch 3 example 2
 # Declare global variables
 n = 0 
 

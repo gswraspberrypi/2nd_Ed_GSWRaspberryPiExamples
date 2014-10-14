@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 6
-
 import pygame
 from pygame.locals import *
 

@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 2
-
 import pygame
 
 pygame.init()

@@ -1,4 +1,3 @@
-# GSW Raspberry Pi ch 3 example 4
 
 from datetime import datetime
 from time import sleep

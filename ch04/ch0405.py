@@ -1,4 +1,3 @@
-# GSW Raspberry Pi ch 3 example 5
 # Open and read a file from command line argument
 import sys
 

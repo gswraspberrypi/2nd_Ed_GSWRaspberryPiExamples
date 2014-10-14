@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 11
-
 import pygame
 from time import sleep
 pygame.init()

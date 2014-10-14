@@ -1,4 +1,3 @@
-# GSW Raspberry Pi ch 3 example 1
 # Setup
 n = 0
 

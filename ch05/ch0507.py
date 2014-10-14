@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 7
-
 import pygame
 import random
 from time import sleep

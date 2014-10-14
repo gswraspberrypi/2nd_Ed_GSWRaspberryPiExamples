@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 8
-
 import pygame
 
 class Ball(pygame.sprite.Sprite):

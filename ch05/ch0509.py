@@ -1,5 +1,3 @@
-# Getting Started with Raspberry Pi Ch 4 Example 9
-
 import pygame.mixer
 from time import sleep
 
