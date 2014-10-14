@@ -1,11 +1,17 @@
-# Getting Started with Raspberry Pi Ch 4 Example 5
+# GSW Raspberry Pi ch 3 example 5
+# Open and read a file from command line argument
+import sys
 
-import pygame
+if (len(sys.argv) != 2):
+   print("Usage: python3 ch0305.py filename")
+   sys.exit()
 
-pygame.init()
-screen = pygame.display.set_mode((725, 92))
-font = pygame.font.SysFont("freeserif", 72, bold = 1)
-textSurface = font.render("1 Theremin Per Child!", 1, pygame.Color(255, 255, 255))
-screen.blit(textSurface, (10, 10))
-while True:
-    pygame.display.update()
+scriptname = sys.argv[0]
+filename = sys.argv[1]
+
+file = open(filename, "r")
+lines = file.readlines()
+file.close()
+
+for line in lines:
+    print(line, end = '')

@@ -1,21 +1,10 @@
-# Getting Started with Raspberry Pi Ch 4 Example 1
+# GSW Raspberry Pi ch 3 example 1
+# Setup
+n = 0
 
-import pygame
-
-width = 640
-height = 480
-radius = 100
-fill = 0
-
-pygame.init()
-
-window = pygame.display.set_mode((width, height))
-window.fill(pygame.Color(255, 255, 255)) 
-
+# Loop
 while True:
-    pygame.draw.circle(window, 
-                       pygame.Color(255, 0, 0),
-                       (width/2, height/2),
-                       radius, fill)
-    
-    pygame.display.update() 
+    n = n + 1
+    # The % is the modulo operator
+    if ((n % 2) == 0):    
+        print(n)

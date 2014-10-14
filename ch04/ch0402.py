@@ -1,13 +1,20 @@
-# Getting Started with Raspberry Pi Ch 4 Example 2
+# GSW Raspberry Pi ch 3 example 2
+# Declare global variables
+n = 0 
 
-import pygame
+# Setup function
+def setup(): 
+    global n
+    n = 100
 
-pygame.init()
-screen = pygame.display.set_mode((450, 450))
-background = pygame.image.load("background.png") 
-background.convert_alpha() 
-screen.blit(background, (0, 0))
+# Loop function
+def loop(): 
+    global n
+    n = n + 1
+    if ((n % 2) == 0):
+        print(n)
+
+# Main
+setup()
 while True:
-    pygame.display.update()
-    if pygame.QUIT in [e.type for e in pygame.event.get()]:
-        break
+    loop()
